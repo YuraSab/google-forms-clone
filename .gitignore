@@ -1,0 +1,17 @@
+# Ignore dependency folders (they are very heavy)
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Ignore the build results
+dist/
+client/dist/
+server/dist/
+
+# Ignore local settings and secrets
+.env
+.env.local
+
+# System files (Mac/Windows)
+.DS_Store
+Thumbs.db

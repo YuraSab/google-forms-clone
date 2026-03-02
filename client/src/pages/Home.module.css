@@ -1,0 +1,76 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    color: #000000;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: -1px;
+}
+
+.createButton {
+    padding: 12px 30px;
+    font-size: 1.1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 16px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(52, 152, 219, 0.1);
+    border-color: #3498db;
+}
+
+.cardContent h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.4rem;
+    color: #000000;
+}
+
+.cardContent p {
+    color: #7f8c8d;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px 60px;
+    width: 100%;
+}
+
+.cardButton {
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+}
