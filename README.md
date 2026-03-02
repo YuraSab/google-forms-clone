@@ -29,7 +29,7 @@
 
 ### 1. Клонування репозиторію
 ```bash
-git clone <посилання_на_твій_репозиторій>
+git clone https://github.com/YuraSab/google-forms-clone.git
 cd google-forms-lite-clone
 ```
 
